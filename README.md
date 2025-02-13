@@ -137,7 +137,7 @@ The Matching password Form project utilizes the following technologies:
 -  <img  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg"  alt="typescript"  width="40"  height="40"/>  &nbsp;  &nbsp;[TypeScript](https://www.typescriptlang.org/)
 
 
--  <img  src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2560px-Tailwind_CSS_Logo.svg.png"  alt="fontawesome"  width="40"  height="40"/>00  &nbsp;  &nbsp;[Tailwindcss](https://tailwindcss.com/)
+-  <img  src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2560px-Tailwind_CSS_Logo.svg.png"  alt="fontawesome"  width="40"  height="40"/>  &nbsp;  &nbsp;[Tailwindcss](https://tailwindcss.com/)
 
 
 
