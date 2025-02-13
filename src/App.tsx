@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 function App() {
-  const [formData, setFormData] = useState({
+  const [formData, setFormData] = useState<{email:string,password:string,passwordConfirm:string,joinedNewsletter:boolean}>({
     email: "",
     password: "",
     passwordConfirm: "",
@@ -12,7 +12,7 @@ function App() {
     formData.password === formData.passwordConfirm &&
     formData.password.length !== 0;
 
-  function handleChange(event) {
+  function handleChange(event:React.ChangeEvent<HTMLInputElement>) {
     const { name, value, type, checked } = event.target;
     setFormData((prevFormData) => ({
       ...prevFormData,
@@ -20,7 +20,7 @@ function App() {
     }));
   }
 
-  function handleSubmit(event) {
+  function handleSubmit(event:React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
     if (formData.password === formData.passwordConfirm) {
       console.log("Successfully signed up");
@@ -37,6 +37,7 @@ function App() {
 
       <div className="form-container">
         <form className="form" onSubmit={handleSubmit}>
+          <h1 className="mt-0 mb-4 text-[#639] font-bold text-xl">Form</h1>
           <input
             type="email"
             placeholder="Email address"
